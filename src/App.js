@@ -4,8 +4,10 @@ import './App.css';
 import Photo from './Photo';
 import Name from './Name';
 import Profile from './Profile';
+import Animal from './Animal';
 
 function App() {
+  const myAnimal = new Animal(); 
   return (
     <>
       <Photo />
